@@ -1,7 +1,7 @@
 User story development
 ================
 Rick O. Gilmore & David Millman
-2017-08-31 16:05:36
+2017-10-13 11:52:49
 
 -   [Background](#background)
 -   [Workflow](#workflow)
