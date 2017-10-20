@@ -147,10 +147,10 @@ Aim 1: Empower Researchers to Exploit Video Coding by Enabling Datavyu to Synchr
 ### Project 1.1 Add Databrary integration features to Datavyu
 
 ## User stories
-# From Databrary's Side: 
-# From Datavyu's Side:
-# A user should be able to login to Databrary via a screen.
-# Datavyu can utilize databrary's backend API to write session level metadata to specific volume...
+### From Databrary's Side: 
+### From Datavyu's Side:
+### A user should be able to login to Databrary via a screen.
+### Datavyu can utilize databrary's backend API to write session level metadata to specific volume...
 
 
 Post-hoc curation puts an onerous demand on researchers’ limited time. Despite the convenience of our active curation framework, the need to enter metadata about participants and tasks in multiple places at multiple times is a burden, increases input errors, and decreases the likelihood that datasets will be shared. Preliminary work: Databrary’s spreadsheet and timeline interfaces make it easy for researchers to enter vital metadata about participants and tasks, but users must enter data by hand into separate desktop spreadsheets or coding tools like Datavyu. Because researchers also require these metadata for desktop-centered statistical analyses, the current workflows duplicate effort, increase the likelihood of data entry errors in critical fields like sharing permission, and make data sharing burdensome. To ensure efficient, accurate, automated transfer of vital data and metadata, we will enable researchers to enter participant-, session-, and study-level metadata into Datavyu and have these data elements automatically synchronize with Databrary. Initially, we will support a limited number of standard data elements—sharing permission level, participant birthdate, test date, gender, race, ethnicity, testing location, lab/home setting, and so on. We will add features to Datavyu that allow it to securely connect to a specific Databrary volume during data synchronization, and to make appropriate and secure Databrary API calls that create new sessions or modify existing ones. We will develop and enforce specific file-naming conventions to facilitate the exchange of Datavyu coding files with Databrary. We will set up controls in Databrary to avoid data overwriting, and provide data owners with appropriate notifications about session and volume changes such as file uploads and modifications. Data entry of session- and participant-level information, especially data sharing permissions, will be substantially more accurate and error-free by improving integration and interoperability between Datavyu and Databrary. This project also lays the foundation for future API enhancements that will allow users to collect participant metadata electronically (using web- or tablet-based apps or their own spreadsheets) and synchronize it with Databrary.
